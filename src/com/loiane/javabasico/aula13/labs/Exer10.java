@@ -10,7 +10,7 @@ public class Exer10 {
 		Locale.setDefault(Locale.US);
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Entre com a temperatura em celsius:");
+		System.out.println("Entre com a temperatura em Celsius:");
 		double celsius = scan.nextDouble();
 		
 		double farenh = (celsius * 9/5) + 32;
