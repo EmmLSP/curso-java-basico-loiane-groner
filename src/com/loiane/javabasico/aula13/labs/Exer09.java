@@ -12,7 +12,7 @@ public class Exer09 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Entre com a temperatura em graus Farenheit:");
-		double farenh = scan.nextDouble(); 
+		double farenh = scan.nextDouble();
 		
 		double celsius = 5 * (farenh - 32) / 9;
 		
