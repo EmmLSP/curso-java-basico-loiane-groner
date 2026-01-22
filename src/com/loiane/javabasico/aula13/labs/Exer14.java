@@ -15,7 +15,7 @@ public class Exer14 {
 		double fileMB = scan.nextDouble();
 		
 		System.out.println("Entre com a velocidade de internet (em Mbps):");
-		double velocInternet = scan.nextDouble();
+		double velInternet = scan.nextDouble();
 		
 		// converter MB para megabits (Mb)
 		// 1 byte = 8 bits
@@ -23,7 +23,7 @@ public class Exer14 {
 		double converterMBtoMb = (fileMB * 8);
 		
 		// dividir pela velocidade
-		double tempo = converterMBtoMb / velocInternet;
+		double tempo = converterMBtoMb / velInternet;
 		
 		// 60 segundos / 60 = 1 minuto
 		// 1 minuto * 60 = 60 segundos
