@@ -59,7 +59,7 @@ public class SwitchCase {
 		case "dois": System.out.println(2); break;
 		case "tres": System.out.println(3); break;
 		case "quatro": System.out.println(4); break;
-		case "cincos": System.out.println(5); break;
+		case "cinco": System.out.println(5); break;
 		default: System.out.println("Não e um numero entre 1 e 5");
 		}
 	}
