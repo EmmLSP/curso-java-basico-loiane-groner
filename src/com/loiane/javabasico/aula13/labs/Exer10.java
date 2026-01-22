@@ -15,7 +15,7 @@ public class Exer10 {
 		
 		double farenh = (celsius * 9/5) + 32;
 		
-		System.out.println(celsius + "°C é igual a " + farenh + "°F");
+		System.out.println("A temperatura " + celsius + "°C é igual a " + farenh + "°F");
 	}
 
 }
