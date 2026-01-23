@@ -20,7 +20,7 @@ public class Exer16 {
 			double b = scan.nextDouble();
 			System.out.println("Entre com o valor de c:");
 			double c = scan.nextDouble();
-			
+		
 			// delta = b² - 4*a*c
 			double delta = (Math.pow(b, 2)) - (4 * a * c);
 			
