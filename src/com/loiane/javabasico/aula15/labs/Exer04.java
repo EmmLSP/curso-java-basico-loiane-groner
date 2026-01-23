@@ -12,7 +12,7 @@ public class Exer04 {
 		String letra = scan.next();
 		
 		if (letra.length() > 1) {
-			System.out.println("Não é uma letra");
+			System.out.println("Não é uma letra valida");
 		} else {
 			if (letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e") ||
 				letra.equalsIgnoreCase("i") ||letra.equalsIgnoreCase("o") ||
