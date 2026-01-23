@@ -23,6 +23,8 @@ public class Exer16 {
 			
 			// delta = b² - 4*a*c
 			double delta = (Math.pow(b, 2)) - (4 * a * c);
+			
+			System.out.println("Delta: " + delta);
 			if (delta < 0) {
 				System.out.println("Delta negativo");
 				System.out.println("A equacao nao possui raizes reais");
