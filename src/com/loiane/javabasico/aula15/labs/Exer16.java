@@ -23,23 +23,20 @@ public class Exer16 {
 		
 			// delta = b² - 4*a*c
 			double delta = (Math.pow(b, 2)) - (4 * a * c);
-			
-			System.out.println("Delta: " + delta);
 			if (delta < 0) {
-				System.out.println("Delta negativo");
+				System.out.println("Delta: " + delta);
 				System.out.println("A equacao nao possui raizes reais");
 			} else {
 				double r1 = (-b + (Math.sqrt(delta))) / (2 * a);
 				double r2 = (-b - (Math.sqrt(delta))) / (2 * a);
 				
 				if (delta == 0) {
-					System.out.println("Delta igual 0");
 					System.out.println("A equacao possui apenas uma raiz real");
 				} else {
-					System.out.println("Delta positivo");
 					System.out.println("A equacao possui duas raizes reais");
 				}
 				
+				System.out.println("Delta: " + delta);
 				System.out.println("r1 = " + r1);
 				System.out.println("r2 = " + r2);
 			}
