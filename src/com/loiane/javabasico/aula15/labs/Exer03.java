@@ -11,6 +11,9 @@ public class Exer03 {
 		System.out.println("Digite com uma letra (F ou M):");
 		String letra = scan.next();
 		
+		// a classe String tem um metodo de comparacao
+		// de String, equals() e equalsIgnoreCase()
+
 		if (letra.equalsIgnoreCase("M")) {
 			System.out.println("M - Masculino");
 		} else if (letra.equalsIgnoreCase("F")) {
