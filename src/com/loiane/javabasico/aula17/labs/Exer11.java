@@ -29,7 +29,7 @@ public class Exer11 {
 		System.out.println("Numeros " + num1 + " ate " + num2 + ":");
 		
 		for (int i = num1; i <= num2; i++) {
-			if (i < num2 - 1) {
+			if (i < num2) {
 				conta += i + " + ";
 			} else {
 				conta += i + " = ";
