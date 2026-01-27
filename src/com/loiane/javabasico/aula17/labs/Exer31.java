@@ -1,5 +1,6 @@
 package com.loiane.javabasico.aula17.labs;
 
+import java.text.DecimalFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -9,6 +10,8 @@ public class Exer31 {
 		
 		Locale.setDefault(Locale.US);
 		Scanner scan = new Scanner(System.in);
+		
+		DecimalFormat df = new DecimalFormat("###,###.##");
 		
 		double salario = 1000;
 		System.out.println("Salario 1995 R$ " + salario + " - percentual 0%");
@@ -22,7 +25,7 @@ public class Exer31 {
 		while (ano <= 2025) {
 			percentual *= 2;
 			salario += (salario / 100) * percentual;
-			System.out.println("Salario " + ano + " R$ " + salario + " - percentual " + percentual + "%");
+			System.out.println("Salario " + ano + " R$ " + df.format(salario) + " - percentual " + percentual + "%");
 			ano++;
 		}
 	}
