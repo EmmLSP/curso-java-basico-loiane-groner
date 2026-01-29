@@ -11,7 +11,7 @@ public class Exer33 {
 		System.out.println("Entre com n termos:");
 		int n = scan.nextInt();
 		
-		double soma = 1;
+		double soma = 0;
 		System.out.print("S = ");
 		for (int i = 1, j = 1; i <= n; i++, j += 2) {
 			soma += i / j;
