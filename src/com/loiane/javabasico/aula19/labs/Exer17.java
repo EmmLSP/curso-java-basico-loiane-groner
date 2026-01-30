@@ -22,7 +22,7 @@ public class Exer17 {
 			}
 		}
 		
-		System.out.print("Idades =");
+		System.out.print("Idades = ");
 		for (int i = 0; i < idades.length; i++) {
 			System.out.print(idades[i] + " ");
 		}
