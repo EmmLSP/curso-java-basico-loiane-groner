@@ -34,8 +34,8 @@ public class Exer21 {
 		}
 		System.out.println();
 		
-		System.out.println("Porcentagem 1: " + porc1 + "%");
 		System.out.println("Porcentagem 0: " + porc0 + "%");
+		System.out.println("Porcentagem 1: " + porc1 + "%");
 	}
 
 }
