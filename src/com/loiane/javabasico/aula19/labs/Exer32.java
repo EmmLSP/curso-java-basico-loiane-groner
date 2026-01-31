@@ -17,6 +17,7 @@ public class Exer32 {
 		}
 		
 		boolean primo;
+		String msg = "";
 		for (int i = 0; i < vetorA.length; i++) {
 			primo = true;
 			if (vetorA[i] < 2) {
@@ -28,7 +29,6 @@ public class Exer32 {
 					break;
 				}
 			}
-			String msg = "";
 			if (primo) {
 				msg = " - primo";
 			} else {
