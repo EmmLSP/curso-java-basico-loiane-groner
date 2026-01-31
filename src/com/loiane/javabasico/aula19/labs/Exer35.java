@@ -1,12 +1,8 @@
 package com.loiane.javabasico.aula19.labs;
 
-import java.util.Scanner;
-
 public class Exer35 {
 
 	public static void main(String[] args) {
-		
-		Scanner scan = new Scanner(System.in);
 		
 		double[] vetorA = new double[11];
 		
