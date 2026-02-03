@@ -6,7 +6,7 @@ public class Exer01 {
 		
 		// new -> instanciar a lampada, objeto do tipo Lampada
 		Lampada lampada = new Lampada();
-		lampada.marca = "A60";
+		lampada.modelo = "A60";
 		lampada.tensao = "Bivolt";
 		lampada.garantiaMeses = 36;
 		lampada.potencia = 7;
@@ -19,7 +19,7 @@ public class Exer01 {
 		lampada.tipos[1] = "lampeoes";
 		
 		System.out.println("Caracteristicas do objeto Lampada:");
-		System.out.println("Marca: " + lampada.marca);
+		System.out.println("Marca: " + lampada.modelo);
 		System.out.println("Tensao: " + lampada.tensao);
 		System.out.println("Garantia em meses: " + lampada.garantiaMeses);
 		System.out.println("Potencia: " + lampada.potencia);
