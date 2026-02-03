@@ -5,9 +5,9 @@ public class Lampada {
 	String modelo;
 	String tensao; // voltagem (110/220), Bivolt
 	int potencia; // potencia em watts (ex: 60W)
-	int garantiaMeses;
 	String cor; // cor da luz (branca, amarela, RGB)
 	String tipoLuz; // LED, fluoroscente, incandescete
+	int garantiaMeses;
 	static String[] tipos;
 	boolean tipoAbajur;
 }
