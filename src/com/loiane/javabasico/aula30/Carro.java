@@ -45,5 +45,4 @@ public class Carro {
 		double qtdCombustivel = km / this.consumoCombustivel;
 		return qtdCombustivel;
 	}
-	
 }
